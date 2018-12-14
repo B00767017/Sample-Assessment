@@ -39,10 +39,11 @@ public class MyUI extends UI {
     @Override
     protected void init(VaadinRequest vaadinRequest) {
         Connection connection = null;
-        String connectionString = "jdbc:sqlserver://classdbtest.database.windows.net:1433;" + "database=classDB;"
-                + "user=usmanshahid18@classdbtest;" + "password=Appleipod@1;" + "encrypt=true;"
-                + "trustServerCertificate=false;" + "hostNameInCertificate=*.database.windows.net;"
-                + "loginTimeout=30;";
+        String connectionString = "jdbc:sqlserver://sampletestma.database.windows.net:1433;database=macom655db;"+
+                                     "user=macom655@sampletestma;"+
+                                     "password=COM655ma;"+
+                                     "encrypt=true;trustServerCertificate=false;"+
+                                     "hostNameInCertificate=*.database.windows.net;loginTimeout=30;";
 
         final HorizontalLayout horizontalLayout = new HorizontalLayout();
         final VerticalLayout layout = new VerticalLayout();
